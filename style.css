@@ -167,8 +167,8 @@ main {
   }
 }
 
-
 /* CAT IMAGES */
+
 .cat-images {
     display: flex;
     flex-direction: column;
@@ -200,6 +200,7 @@ main {
 }
 
 /* CAT MEMES */
+
 #Carol {
     flex-direction: row;
     display: flex;
@@ -472,4 +473,59 @@ main {
     box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
 }
 
+/* PLAY AROUND */
+.playaround {
+    text-align: center;
+    
+}
 
+.main-boxes {
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100%;
+}
+
+
+.main-boxes div {
+    background-color: bisque;
+    /* padding: 5px 50px; */
+    width: 400px;
+    height: 600px;
+    margin: 20px 40px;
+    flex-shrink: 0;
+    
+}
+
+.howdyclass button {
+    background-color: #fff0e5;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+}
+
+
+
+/* .howdyclass button {
+  appearance: none;
+  border: 1px solid rgba(27, 31, 35, .15);
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+} */
