@@ -1,0 +1,407 @@
+/* NAVIGATION */
+
+#logo {
+    font-weight: bold auto;
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: #f8f8f8;
+    padding: 15px;
+    font-family: Quicksand, monospace;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #e0e0e0;
+}
+
+#nav-links {
+    position: relative;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: bisque;
+    padding: 0;
+    font-family: Quicksand, monospace;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: black;
+}
+
+footer div {
+    padding: 20px;
+    display: flex;
+}
+
+/* ALL */
+
+
+
+• {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0 auto;
+}
+
+.first {
+    margin: 0 auto;
+    color: magenta;
+}
+
+.backgroundhead {
+    background-color: #fff0e5;
+}
+
+
+.quicksand-curley {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; /* <weight>: Use a value from 300 to 700 */
+  font-style: normal;
+}
+
+main {
+    /* padding: 15px; */
+    font-family: "Quicksand", sans-serif;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+
+
+
+/* CAT IMAGES */
+.cat-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.cat-images p {
+    font-weight: 900;
+    font-size: 50px;
+    color: #3333339f;
+    margin-top: 10px;
+}
+
+.cat-images img{
+    /* max-width: 300px; */
+    width: 100%;
+    border-radius: 10px;
+}
+
+#image-area {
+    background-color: #fff;
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;    /* box-shadow:#4d2a2a, 10px; */
+}
+
+/* CAT MEMES */
+#Carol {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+#Carol img {
+    width: 600px;
+    margin: 20px 200px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+/* QUESTIONNAIRE */
+
+.updated--button button{
+    display: block;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 0 auto;
+  }
+  
+  .updated--button button:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+  }
+  
+  @media (min-width: 768px) {
+    .updated--button {
+      padding: 0.25em 0.75em;
+    }
+  }
+
+
+.submit {
+    margin:  15px 20%;
+    background-color: hsl(0, 59%, 41%, 45%);
+    border: 1px dashed #4d2a2a;
+    padding: 20px;
+    text-align: center;
+}
+
+#mot-cat {
+    margin: 15px auto;
+    max-width: 300px;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#bottom-support {
+    margin: 20px;
+    text-align: center;
+}
+
+.space-invader {
+    /* Modify size here: */
+    --block-size: 6px;
+  
+    box-shadow: 0 0 0 var(--block-size) #333,
+    0 var(--block-size) 0 var(--block-size) #333,
+    calc(var(--block-size) * -2.5) calc(var(--block-size) * 1.5) 0 calc(var(--block-size) * .5) #333,
+    calc(var(--block-size) * 2.5) calc(var(--block-size) * 1.5) 0 calc(var(--block-size) * .5) #333,
+    calc(var(--block-size) * -3) calc(var(--block-size) * -3) 0 0 #333,
+    calc(var(--block-size) * 3) calc(var(--block-size) * -3) 0 0 #333,
+    calc(var(--block-size) * -2) calc(var(--block-size) * -2) 0 0 #333,
+    calc(var(--block-size) * 2) calc(var(--block-size) * -2) 0 0 #333,
+    calc(var(--block-size) * -3) calc(var(--block-size) * -1) 0 0 #333,
+    calc(var(--block-size) * -2) calc(var(--block-size) * -1) 0 0 #333,
+    calc(var(--block-size) * 2) calc(var(--block-size) * -1) 0 0 #333,
+    calc(var(--block-size) * 3) calc(var(--block-size) * -1) 0 0 #333,
+    calc(var(--block-size) * -4) 0 0 0 #333,
+    calc(var(--block-size) * -3) 0 0 0 #333,
+    calc(var(--block-size) * 3) 0 0 0 #333,
+    calc(var(--block-size) * 4) 0 0 0 #333,
+    calc(var(--block-size) * -5) var(--block-size) 0 0 #333,
+    calc(var(--block-size) * -4) var(--block-size) 0 0 #333,
+    calc(var(--block-size) * 4) var(--block-size) 0 0 #333,
+    calc(var(--block-size) * 5) var(--block-size) 0 0 #333,
+    calc(var(--block-size) * -5) calc(var(--block-size) * 2) 0 0 #333,
+    calc(var(--block-size) * 5) calc(var(--block-size) * 2) 0 0 #333,
+    calc(var(--block-size) * -5) calc(var(--block-size) * 3) 0 0 #333,
+    calc(var(--block-size) * -3) calc(var(--block-size) * 3) 0 0 #333,
+    calc(var(--block-size) * 3) calc(var(--block-size) * 3) 0 0 #333,
+    calc(var(--block-size) * 5) calc(var(--block-size) * 3) 0 0 #333,
+    calc(var(--block-size) * -2) calc(var(--block-size) * 4) 0 0 #333,
+    calc(var(--block-size) * -1) calc(var(--block-size) * 4) 0 0 #333,
+    var(--block-size) calc(var(--block-size) * 4) 0 0 #333,
+    calc(var(--block-size) * 2) calc(var(--block-size) * 4) 0 0 #333;
+    background: #333;
+    width: var(--block-size);
+    height: var(--block-size);
+    overflow: hidden;
+  }
+
+  #SI {
+    display: flex;
+    margin: 40px 0 30px 0;
+    justify-content: center;
+  }
+
+/* CAT QUESTIONNAIRE */
+
+.cat-questionnaire {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 3px dashed #4d2a2a;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 15c-2 0-4 2-4 4s2 4 4 4 4-2 4-4-2-4-4-4zm0 22c-2 0-4 2-4 4s2 4 4 4 4-2 4-4-2-4-4-4z' fill='%234d2a2a' fill-opacity='0.1'/%3E%3C/svg%3E");
+    box-sizing: border-box;
+}
+
+.cat-questionnaire label {
+    display: block;
+    margin-bottom: 8px;
+    color: #4d2a2a;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+}
+
+.cat-questionnaire label::before {
+    content: "🐱 ";
+}
+
+.cat-questionnaire input[type="text"],
+.cat-questionnaire input[type="number"],
+.cat-questionnaire select,
+.cat-questionnaire textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 2px solid #4d2a2a;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    transition: all 0.3s;
+    background-color: #fff0e5;
+}
+
+.cat-questionnaire input[type="text"]:focus,
+.cat-questionnaire input[type="number"]:focus,
+.cat-questionnaire select:focus,
+.cat-questionnaire textarea:focus {
+    border-color: #4d2a2a;
+    outline: none;
+    box-shadow: 0 0 8px rgba(77, 42, 42, 0.3);
+    transform: scale(1.01);
+}
+
+.cat-questionnaire input[type="checkbox"],
+.cat-questionnaire input[type="radio"] {
+    margin-right: 8px;
+}
+
+.cat-questionnaire input[type="checkbox"] + label,
+.cat-questionnaire input[type="radio"] + label {
+    display: inline;
+    font-weight: normal;
+}
+
+.cat-questionnaire input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+    -webkit-appearance: none;
+    height: 10px;
+    background: #fff0e5;
+    border-radius: 5px;
+    border: 2px solid #4d2a2a;
+}
+
+.cat-questionnaire input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #4d2a2a;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.cat-questionnaire input[type="range"]::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+    background: #6b3d3d;
+}
+
+.cat-questionnaire button {
+    background-color: #4d2a2a;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.cat-questionnaire button::before {
+    content: "🐾";
+    position: absolute;
+    left: -30px;
+    transition: all 0.3s;
+}
+
+.cat-questionnaire button:hover {
+    background-color: #6b3d3d;
+    transform: scale(1.05);
+    padding-left: 40px;
+}
+
+.cat-questionnaire button:hover::before {
+    left: 10px;
+}
+
+.cat-questionnaire h2 {
+    color: #4d2a2a;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cat-questionnaire h2::before,
+.cat-questionnaire h2::after {
+    content: "🐱";
+    margin: 0 10px;
+}
+
+.cat-questionnaire p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+/* BLACK MAGIC */
+#wizard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    width: 100%;
+}
+
+#wizard img {
+    max-width: 90vw;
+    max-height: 70vh;
+    width: auto;
+    height: auto;
+    display: block;
+    padding: 10px;
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+}
+
+
