@@ -63,7 +63,9 @@ footer div {
 
 /* ALL */
 
-
+.backgroundhead {
+    background-color: #fff0e5;
+}
 
 • {
     box-sizing: border-box;
@@ -75,9 +77,6 @@ p {
 
 
 
-.backgroundhead {
-    background-color: #fff0e5;
-}
 
 
 .quicksand-curley {
@@ -116,6 +115,7 @@ main {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin: 0 6px;
 }
 
 .button-74:hover {
@@ -495,37 +495,34 @@ main {
     height: 600px;
     margin: 20px 40px;
     flex-shrink: 0;
+    padding: 6px;
     
 }
 
 .howdyclass button {
     background-color: #fff0e5;
     border-radius: 6px;
+    font-size: 14px§;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    margin: 6px;
+}
+
+.howdyclass {
+}
+
+.defaultButton {
+    background-color: #fff0e5;
+    border-radius: 6px;
     font-size: 14px;
     font-weight: 600;
     line-height: 20px;
     padding: 6px 16px;
+    margin: 6px;
 }
 
-
-
-/* .howdyclass button {
-  appearance: none;
-  border: 1px solid rgba(27, 31, 35, .15);
-  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-
-  padding: 6px 16px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: middle;
-  white-space: nowrap;
-} */
+.mars {
+    max-width: 390px;
+    margin: 20px 0;
+}
